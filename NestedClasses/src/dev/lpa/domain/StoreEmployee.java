@@ -28,10 +28,11 @@ public class StoreEmployee extends Employee {
 
         @Override
         public int compare(StoreEmployee o1, StoreEmployee o2) {
+            // 店舗名で比較する
             int result = o1.store.compareTo(o2.store);
-            if (result == 0) {
+            if (result == 0) { // 店舗名が同じ
                 return new Employee.EmployeeComparator<>(
-                        "yearStarted").compare(o1, o2);
+                        "yearStarted").compare(o1, o2); // 開始年でソートする
             }
 
             return result;
