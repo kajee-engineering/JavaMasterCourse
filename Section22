@@ -1,1 +1,11 @@
 
+MySQLの理由は
+
+CallableStatementsについて学ぶことが重要で、そのためにストアドプロシージャをサポートしているDBが必要なためです。
+
+最後にMySQLは人気のある世界標準であることです。
+
+---
+
+DB Engine Ranking
+https://db-engines.com/en/ranking
