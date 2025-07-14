@@ -9,3 +9,14 @@ CallableStatementsについて学ぶことが重要で、そのためにスト�
 
 DB Engine Ranking
 https://db-engines.com/en/ranking
+
+
+MySQLのセットアップ
+
+ダウンロード先
+https://dev.mysql.com/downloads/file/?id=539192
+
+"root" user パスワード
+root userを日々の活動で使うのは得策ではない。通常の使用ではroot権限は必要ないからだ。
+
+項目「Limit to Hosts Matching:」を%からlocalhostへ変更する // 他のコンピュータからアクセスさせたくないから。localhostのみのアクセス制限なので、ハッカーがユーザ名とパスワードを使ってもアクセスできない。
